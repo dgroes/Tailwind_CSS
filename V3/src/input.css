@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .card{
+        @apply bg-rose-500 w-20 h-20 grid place-content-center rounded-lg text-white font-bold border-2 border-x-rose-600 text-4xl
+    }
+
+    .card-grid{
+        @apply bg-rose-500 grid place-content-center rounded-lg text-white font-bold border-2 border-x-rose-600 text-4xl
+    }
+}
