@@ -10,4 +10,8 @@
     .card-grid{
         @apply bg-rose-500 grid place-content-center rounded-lg text-white font-bold border-2 border-x-rose-600 text-4xl
     }
+
+    .card-cart{
+        @apply w-32
+    }
 }

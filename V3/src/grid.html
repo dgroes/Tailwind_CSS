@@ -11,18 +11,28 @@
 
 <body class="bg-gray-200 p-4">
 
-    <div>
-        <div class="card-grid">1</div>
+    <!-- <div class="grid grid-cols-3 gap-2">
+        <div class="card-grid col-span-2">1</div>
         <div class="card-grid">2</div>
         <div class="card-grid">3</div>
-        <div class="card-grid">4</div>
-        <div class="card-grid">5</div>
+        <div class="card-grid row-span-3">4</div>
+        <div class="card-grid col-span-2">5</div>
         <div class="card-grid">6</div>
-        <div class="card-grid">7</div>
+        <div class="card-grid col-[2/5]">7</div>
         <div class="card-grid">8</div>
         <div class="card-grid">9</div>
-    </div>
+    </div> -->
 
+    <div class="grid grid-cols-2 gap-2 h-[100vh]">
+
+        <div class="card-grid col-span-2">Header</div>
+        <div class="card-grid col-span-2">Nav</div>
+        <div class="card-grid">Section</div>
+        <div class="card-grid">Article</div>
+        <div class="card-grid row-[3/5] col-start-2">Aside</div>
+        <div class="card-grid col-span-2">Footer</div>
+
+    </div>
 </body>
 
 </html>
